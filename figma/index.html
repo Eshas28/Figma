@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>HOTEL</title>
+    <style>
+ .room-type-container {
+
+  justify-content:center;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+}
+
+.room-types {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+  max-width:100%; /* Ensures it stays beside image */
+  font-size: 13px;
+}
+
+.room-image { 
+  max-width: 300px;
+  height: auto;
+  display: block;
+  border-radius: 15px; /* optional styling */
+  margin-right: 20px;
+}
+    </style>
+</head>    
+<body>
+    <section class="hero-section">
+        <div class="hero-text"> 
+            <h1 style="font-size: 35px;">Welcome to Paradise Hotel</h1>
+            <p style="font-size: 15px;">We provide rooms at a very good price along with great amenities to make your living experience awesome</p>
+            <button class="book-button">Book</button>
+
+        </div>
+
+
+    </section>
+    <section class="about-section">
+        <h1 class="about-heading">A bout Us</h1>
+        <div class="about-us">
+            <p style="font-size: 13px;">Welcome to our hotel, where comfort meets elegance. Located in the heart of the city, we offer a perfect blend of modern amenities and warm hospitality. Whether you're here for business or leisure, our well-appointed rooms, friendly staff, and exceptional service ensure a memorable stay.
+            </p>
+            <button class="know-button">Know more...</button>
+        </div><br>
+        <div class="amenities">
+          
+          <ul style="font-size: 13px;">
+            <h3 style="font-size: 14px;">Amenities we have:</h3>
+           
+            <li>High Speed Internet</li>
+
+            <li>Complementary breakfast</li>
+            <li>Swimming pool</li>
+        
+            
+          </ul>
+        </div>
+
+    </section>
+    <br>
+    <br>
+
+    <h1 class="room-heading"> <u>Room Types</u></h1>
+    <section class="room-type-container">
+       
+        
+        <div class="room-types"><br>
+        <h3>Single occupancy Room</h3>
+            <p >A single occupancy room is designed to comfortably accommodate one person, offering privacy and a peaceful environment. It typically features a single bed, a work desk, and essential amenities such as a wardrobe, television, and an attached bathroom. </p>
+            <h3>Family Room</h3>
+            <p >A family room is a spacious accommodation designed to comfortably host families or small groups. It usually includes multiple beds or a combination of beds and sofa beds, along with essential amenities like a television, wardrobe, seating area, and an attached bathroom. </p>
+            <h3>Duplex room</h3>
+            <p >A duplex room is a luxurious and stylish accommodation spread over two floors, connected by an internal staircase. It offers a unique blend of space and comfort, often featuring a living area on the lower level and a bedroom on the upper level. Duplex rooms are ideal for families, couples, or guests seeking extra privacy and elegance.</p>
+            
+        </div>
+        <br><br>
+        <div class="image-container">
+          <img src="https://media.designcafe.com/wp-content/uploads/2023/07/05141651/aesthetic-room-decor-with-light-fixtures.jpg" alt="Room" class="room-image" >
+          <img src="https://cache.marriott.com/marriottassets/marriott/LASJW/lasjw-suite-0084-hor-clsc.jpg" alt="Room" class="room-image">
+          <img src="https://img.freepik.com/premium-photo/hotel-room-with-bed-table-large-picture-lake_865967-350772.jpg" alt="Room" class="room-image">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.CtgKc2vXSc3SmViRwlJEYwHaE4?r=0&pid=Api&h=220&P=0">
+          <img src="https://c8.alamy.com/comp/RAWPKT/3d-render-modern-luxury-hotel-room-RAWPKT.jpg" alt="Room" class="room-image">
+        </div>
+             
+ 
+    </section><br><br><br>
+    <h2 class="form-booking">Fill the form for booking</h2>
+    <section class="form-container"><br>
+        <form>
+        <div class="form-group">
+            <label for="name">Your full name</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">email id</label>
+            <input type="email" id="email"><br><br>
+            <label type="booking-date">date of booking</label>
+            <input type="date" id="booking-date"><br><br>
+            <label for="room-type">select room type</label>
+            <input type="room-type" id="room-type"><br>
+            
+            
+        </div> 
+        <div class="submit-button">
+             <input type="submit" id="book">
+        </div> 
+                  
+    </form>
+    </section>
+</body>
+</html>

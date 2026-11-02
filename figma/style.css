@@ -1,0 +1,145 @@
+
+.hero-section {
+  background-image: url("https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWx8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-blend-mode: overlay;
+  height:80vh;
+  max-width:100%;
+  
+  border: 2px solid red; 
+  
+  text-align: center;
+  margin: auto;
+  
+}
+/* html{
+    font: size 40px;
+} */
+
+.hero-text{
+    color:white;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+.hero-text > h1{
+    font-size: 45px;
+
+}
+
+.know-button {
+    background-color: #00c3ff;
+    font-size: 15px;
+   
+    border-radius:10px;
+    padding:10px;
+    margin-left: 803px;
+    cursor: pointer;
+   
+}
+.book-button{
+     background-color: #00c3ff;
+     cursor: pointer;
+     border-radius: 60px;
+     padding: 10px;
+   
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+  
+}
+.amenities{
+    justify-content: center;
+    margin-left: 803px;
+    display: block;
+    
+}
+.about-us{
+    
+    
+    font-size: 10px;
+    padding-left: 10px;
+    /* width:30px;
+    margin:0%; */
+    justify-content: center;
+    
+
+    
+}
+.about-section >h1{
+    text-align:center;
+    margin:10px;
+    text-decoration: underline;
+}
+.room-heading{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.image-container{
+    display:flex;
+    gap: 50px;
+    padding: 50px;
+    cursor:pointer;
+    
+}
+.image-container img{
+    width: 50%;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+    
+ .image-container img:hover{   
+    
+    transform: scale(1.1);
+
+
+}
+
+form{
+    border: 2px solid black;
+    max-width: fit-content;
+    padding:10px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color:paleturquoise;
+    
+    
+}
+label{
+    font-size: 20px;
+
+}
+.form-container{
+    display: flex;
+    justify-content:center;
+  
+    
+}
+.submit-button{
+   
+    width:90%;
+    border-radius:10px;
+   padding: 10px;
+  font-size: 10px;
+  text-align:center;
+} 
+input{
+    font-size:12px;
+    cursor:pointer;
+}
+.form-booking{
+   display: flex;
+   font-size: 20px;
+   text-decoration: underline;
+   justify-content: center;
+  
+}
+
+ 
